@@ -11,7 +11,7 @@ window.APP_CONFIG = {
   MAX_SESSIONS: 2,
 
   // 1P 행사 정보
-  EVENT: { period: "2026.10.24(토) ~ 2026.10.25(일)", place: "Y173 - 성수동 연무장17길 3", periodShort: "2026.10.24(토) - 10.25(일)", address: "서울 성동구 연무장 17길 3, Y173" },
+  EVENT: { period: "2026.10.24(토) ~ 2026.10.25(일)", place: "Y173 - 성수동 연무장17길 3", periodShort: "2026.10.24(토) - 10.25(일)", hours: "10:30~21:00", address: "서울 성동구 연무장 17길 3, Y173" },
 
   // ※ MAX_SESSIONS / DEADLINE / DATES / SCHEDULE / SIZES를 바꾸면 `node gas/sync.js` 실행 후 Code.gs를 재배포해야 합니다.
 
