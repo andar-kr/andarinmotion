@@ -555,6 +555,9 @@ button { cursor: pointer; }
   .sessions-page .intro .when { margin-top: var(--f6); }
 }
 
+/* 스페셜 카드 태그 배경(하이라이트) 제거 */
+.card .tag, .specials .card .tag { padding: 0; border-radius: 0; background: none; }
+
 /* 시간표 클래스명 굵기 완화 */
 .tile { font-weight: 400; letter-spacing: .05em; }
 
