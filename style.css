@@ -558,6 +558,9 @@ button { cursor: pointer; }
 /* 스페셜 카드 태그 배경(하이라이트) 제거 */
 .card .tag, .specials .card .tag { padding: 0; border-radius: 0; background: none; }
 
+/* 시간표 날짜 아래 요일 (토)/(일): 한글이라 자간 제거 */
+.day span { letter-spacing: 0; font-size: 11px; }
+
 /* 시간표 클래스명 굵기 완화 */
 .tile { font-weight: 400; letter-spacing: .05em; }
 

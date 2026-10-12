@@ -7,7 +7,7 @@
 
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const sessionId = (date, time, name) => `${date} ${time} ${name}`;
-  const DOW_NAMES = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  const DOW_NAMES = ["(일)", "(월)", "(화)", "(수)", "(목)", "(금)", "(토)"];
   const dow = (d) => { const [m, day] = d.split("/").map(Number); return DOW_NAMES[new Date(C.YEAR, m - 1, day).getDay()]; };
 
   const ICON = {
