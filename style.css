@@ -569,6 +569,7 @@ button { cursor: pointer; }
 .done .msg2 { font-size: 14px; letter-spacing: -.02em; white-space: nowrap; }
 .done .msg2 b { color: var(--ink); text-shadow: -.7px -.7px 0 #fff, .7px -.7px 0 #fff, -.7px .7px 0 #fff, .7px .7px 0 #fff, 0 .7px 0 #fff, 0 -.7px 0 #fff, .7px 0 0 #fff, -.7px 0 0 #fff; } /* 검은 글씨 + 얇은 흰 테두리 */
 .chosen span { white-space: nowrap; letter-spacing: .04em; }
+.done .cta { background: rgba(0,0,0,.28); border-color: rgba(255,255,255,.3); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); } /* 뒤 사진 색에 물들지 않도록 어두운 반투명 */
 @media (max-width: 380px) { .done { padding-left: 16px; padding-right: 16px; } .done .msg2 { font-size: 12.5px; } }
 @media (min-width: 960px) {
   .done h2 { font-size: 30px; }
