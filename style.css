@@ -541,6 +541,20 @@ button { cursor: pointer; }
   .sessions-page .end-btn { margin-top: var(--f5); }
 }
 
+/* 소개 문구(lead2·lead3) 크기·굵기 통일, 소개 구간 글씨 검정 · 날짜/주소를 맨 아래로 */
+.sessions-page .intro .lead2, .sessions-page .intro .lead3 { gap: 0; font: 400 13.5px/2.05 var(--display); letter-spacing: .01em; color: var(--ink); }
+.sessions-page .intro .lead2 span:last-child { font-weight: 400; letter-spacing: inherit; }
+.sessions-page .intro .lead2 { margin-top: var(--f5); }
+.sessions-page .intro .lead3 { margin-top: var(--f3); }
+.sessions-page .intro .when { margin-top: var(--f5); }
+.sessions-page .intro .w-date, .sessions-page .intro .w-place { color: var(--ink); }
+@media (min-width: 960px) {
+  .sessions-page .intro .lead2, .sessions-page .intro .lead3 { font-size: 16px; }
+  .sessions-page .intro .lead2 { margin-top: var(--f6); }
+  .sessions-page .intro .lead3 { margin-top: var(--f4); }
+  .sessions-page .intro .when { margin-top: var(--f6); }
+}
+
 /* 시간표 클래스명 굵기 완화 */
 .tile { font-weight: 400; letter-spacing: .05em; }
 

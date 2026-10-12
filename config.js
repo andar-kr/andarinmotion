@@ -11,7 +11,7 @@ window.APP_CONFIG = {
   MAX_SESSIONS: 2,
 
   // 1P 행사 정보
-  EVENT: { period: "2026.10.24(토) ~ 2026.10.25(일)", place: "Y173 - 성수동 연무장17길 3", periodShort: "2026.10.24(토) - 10.25(일)", address: "서울 성동구 연무장길 17길 3, Y173" },
+  EVENT: { period: "2026.10.24(토) ~ 2026.10.25(일)", place: "Y173 - 성수동 연무장17길 3", periodShort: "2026.10.24(토) - 10.25(일)", address: "서울 성동구 연무장 17길 3, Y173" },
 
   // ※ MAX_SESSIONS / DEADLINE / DATES / SCHEDULE / SIZES를 바꾸면 `node gas/sync.js` 실행 후 Code.gs를 재배포해야 합니다.
 
@@ -72,7 +72,7 @@ window.APP_CONFIG = {
 
   // 2P 클래스 정보
   INTRO: {
-    lead: ["움직임을 일상으로 확장하는", "새로운 태도와 가능성", "안다르의 첫번째 팝업이 열립니다."],
+    lead: ["움직임을 일상으로 확장하는", "새로운 태도와 가능성,", "안다르의 첫번째 팝업"],
     sub: ["안다르 ambassador가 리드하는 다양한 클래스와 함께", "팝업에서 최초 공개되는 에어쿨링 캡슐 컬렉션이 제공됩니다."],
   },
   APPLY_DEADLINE: { date: "10.14", dow: "WED", time: "24:00" },

@@ -189,10 +189,9 @@
         <div class="wrap">
           <header class="intro">
             <h1 class="intro-logo"><img src="assets/popup-logo.png" alt="ANDAR. IN MOTION" /></h1>
-            <p class="when"><span class="w-date">${esc(C.EVENT.periodShort)}</span><span class="w-place">${esc(C.EVENT.address)}</span></p>
-            <i class="rule"></i>
             <p class="lead2">${C.INTRO.lead.map((l) => `<span>${esc(l)}</span>`).join("")}</p>
             <p class="lead3">${C.INTRO.sub.map((l) => `<span>${esc(l).replace("ambassador", "<em>ambassador</em>")}</span>`).join("")}</p>
+            <p class="when"><span class="w-date">${esc(C.EVENT.periodShort)}</span><span class="w-place">${esc(C.EVENT.address)}</span></p>
           </header>
           <section class="class-panel">${days}</section>
           <section class="class-panel specials"><div class="day-col"><div class="day-tag">${esc(C.SPECIAL_DATE)}</div><div class="cards">${wide(C.STRETCH_YOUR_RUN, 1)}${wide(C.K_SOUND_BATH, 2)}</div></div></section>
