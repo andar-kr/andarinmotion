@@ -209,14 +209,14 @@
   function Done() {
     const chosen = state.lastChosen.map((s) => {
       const [date, time, ...name] = s.split(" ");
-      return `<div>${esc(name.join(" "))}<span>${esc(date)} · ${esc(time)}</span></div>`;
+      return `<div>${esc(name.join(" "))}<span>${esc(date.replace("/", "."))} ${esc(dow(date))} · ${esc(time)}</span></div>`;
     }).join("");
     return `
       <div class="done view">
         ${mesh()}
         <div class="ring"><svg viewBox="0 0 42 42"><path d="M10 22.5l8 8L32 13"/></svg></div>
-        <h2>신청이<br /><em>완료되었습니다</em></h2>
-        <p class="msg2">당첨자는 <b>${esc(C.ANNOUNCE_DATE)}</b><br />개별 안내드릴 예정입니다.</p>
+        <h2>신청이 완료되었습니다.</h2>
+        <p class="msg2">당첨자는 <b>${esc(C.ANNOUNCE_DATE)}</b> 개별 안내드릴 예정입니다.</p>
         ${chosen ? `<div class="chosen">${chosen}</div>` : ""}
         <button class="cta" data-go="/"><span>처음으로</span></button>
       </div>`;

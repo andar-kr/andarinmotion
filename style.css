@@ -564,6 +564,17 @@ button { cursor: pointer; }
 /* 안다르 아이디 옆 안내 문구 (좁은 화면에서는 줄바꿈) */
 .f > label em.id-hint { font-size: 10.5px; line-height: 1.6; letter-spacing: 0; }
 
+/* 신청 완료 화면: 제목 작게 한 줄(기울임 없음), 안내 문구 한 줄, 발표일 검은 글씨 */
+.done h2 { font: 600 22px/1.4 var(--display); letter-spacing: -.02em; white-space: nowrap; }
+.done .msg2 { font-size: 14px; letter-spacing: -.02em; white-space: nowrap; }
+.done .msg2 b { background: #fff; border-color: #fff; color: var(--ink); }
+.chosen span { white-space: nowrap; letter-spacing: .04em; }
+@media (max-width: 380px) { .done { padding-left: 16px; padding-right: 16px; } .done .msg2 { font-size: 12.5px; } }
+@media (min-width: 960px) {
+  .done h2 { font-size: 30px; }
+  .done .msg2 { font-size: 17px; }
+}
+
 /* 시간표 클래스명 굵기 완화 */
 .tile { font-weight: 400; letter-spacing: .05em; }
 
