@@ -151,7 +151,7 @@
                 ${inputField("name", "성함", 'autocomplete="name" placeholder="홍길동"')}
                 ${genderField()}
                 ${inputField("phone", "연락처", 'type="tel" inputmode="numeric" placeholder="010-0000-0000" autocomplete="tel"')}
-                ${inputField("andarId", "안다르 아이디", 'autocapitalize="off" autocomplete="off" placeholder="andar_id"')}
+                ${inputField("andarId", "안다르 아이디 <em class=\"id-hint\">* 카카오 로그인 : [마이페이지] - [개인정보 수정] - [기본정보] (ex: 123456789@k)</em>", 'autocapitalize="off" autocomplete="off" placeholder="andar_id"')}
                 ${inputField("instaId", "인스타 아이디 <em>(선택)</em>", 'autocapitalize="off" autocomplete="off" placeholder="@instagram_id"')}
               </div>
             </section>

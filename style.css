@@ -561,6 +561,9 @@ button { cursor: pointer; }
 /* 시간표 날짜 아래 요일 (토)/(일): 한글이라 자간 제거 */
 .day span { letter-spacing: 0; font-size: 11px; }
 
+/* 안다르 아이디 옆 안내 문구 (좁은 화면에서는 줄바꿈) */
+.f > label em.id-hint { font-size: 10.5px; line-height: 1.6; letter-spacing: 0; }
+
 /* 시간표 클래스명 굵기 완화 */
 .tile { font-weight: 400; letter-spacing: .05em; }
 
