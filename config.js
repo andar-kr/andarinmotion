@@ -94,13 +94,13 @@ window.APP_CONFIG = {
     subtitle: "트레이닝 + 슬로우조깅 4K",
     time: "10:30 ~ 12:00",
     text: "하이브리드 트레이닝과 함께 성수 일대를 가볍게 달리며 스페셜 체크포인트에서 스트레칭과 음료로 잠시 여유를 즐겨보세요",
-    image: "assets/session/stretch-your-run.jpg",
+    image: "assets/session/stretch-your-run.jpg?v=2",
   },
   K_SOUND_BATH: {
     title: "K-SOUND BATH",
     subtitle: "가야금 사운드배스 + 연꽃차 세레모니 명상",
     time: "19:30 ~ 20:30",
     text: "가야금의 깊고 고요한 울림 속에서 몸과 마음의 이완을 느끼고, 따뜻한 연꽃차와 함께 지금 이 순간에 머물러 보세요",
-    image: "assets/session/k-sound-bath.jpg",
+    image: "assets/session/k-sound-bath.jpg?v=2",
   },
 };
