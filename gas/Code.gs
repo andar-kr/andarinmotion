@@ -7,7 +7,7 @@ var MIN_ELAPSED_SEC = 3;
 
 // ---- config.js에서 생성됨: 직접 수정하지 말고 config.js 수정 후 `node gas/sync.js` 실행 ----
 var MAX_SESSIONS = 2;
-var DEADLINE = new Date("2026-10-15T00:00:00+09:00");
+var DEADLINE = new Date("2026-10-18T00:00:00+09:00");
 var DATES = ["10/24","10/25"];
 var SCHEDULE = [
   {"time":"10:30","sessions":["STRETCH YOUR RUN","STRETCH YOUR RUN"]},

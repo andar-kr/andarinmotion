@@ -3,11 +3,11 @@ window.APP_CONFIG = {
   // Google Apps Script 웹앱 URL (gas/README.md 참고). 비워두면 mock 모드(브라우저 localStorage에 저장)로 동작합니다.
   GAS_URL: "https://script.google.com/macros/s/AKfycbyFuTQDfAVqLRSFV9_faNcsuWpiqurW8BqVZ0Wq25uLYaObn3RB4gthMAMTzNlmOZ0/exec",
 
-  // 신청 마감: 10/14(수) 24:00 = 10/15 00:00 (KST). 이후 종료 페이지 → TAKEDOWN 이후 배포 내림(404)
-  DEADLINE: "2026-10-15T00:00:00+09:00",
-  TAKEDOWN: "2026-10-18T00:00:00+09:00",
+  // 신청 마감: 10/17(토) 24:00 = 10/18 00:00 (KST). 이후 종료 페이지 → TAKEDOWN 이후 배포 내림(404)
+  DEADLINE: "2026-10-18T00:00:00+09:00",
+  TAKEDOWN: "2026-10-21T00:00:00+09:00",
 
-  ANNOUNCE_DATE: "10.16 (금)",
+  ANNOUNCE_DATE: "10.19 (월)",
   MAX_SESSIONS: 2,
 
   // 1P 행사 정보
@@ -75,7 +75,7 @@ window.APP_CONFIG = {
     lead: ["움직임을 일상으로 확장하는 새로운 태도와 가능성,", "안다르의 첫번째 팝업"],
     sub: ["안다르 ambassador가 리드하는 다양한 클래스와 함께", "팝업에서 최초 공개되는 에어쿨링 캡슐 컬렉션이 제공됩니다."],
   },
-  APPLY_DEADLINE: { date: "10.14", dow: "수", time: "24:00" },
+  APPLY_DEADLINE: { date: "10.17", dow: "토", time: "24:00" },
 
   // 날짜별 클래스 (이미지는 assets/session)
   MAIN_MOTION: [
