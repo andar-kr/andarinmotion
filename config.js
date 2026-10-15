@@ -22,7 +22,7 @@ window.APP_CONFIG = {
     { time: "10:30", end: "12:00", sessions: ["STRETCH YOUR RUN", "STRETCH YOUR RUN"] },
     { time: "12:30", end: "14:00", sessions: ["MUSIC FLOW YOGA", "POWER PILATES"] },
     { time: "16:30", end: "18:00", sessions: ["BURN BOOT CAMP", "MOVE & RESET YOGA"] },
-    { time: "19:30", end: "20:30", sessions: ["K - SOUND BATH", "K - SOUND BATH"] },
+    { time: "19:30", show: "19:00", end: "20:30", sessions: ["K - SOUND BATH", "K - SOUND BATH"] }, // show: 화면 표시 시각 (time은 접수 서버 검증용이라 그대로 둠)
   ],
 
   // 사이즈 드롭다운 옵션 (성별에 따라 다름)
@@ -99,7 +99,7 @@ window.APP_CONFIG = {
   K_SOUND_BATH: {
     title: "K-SOUND BATH",
     subtitle: "가야금 사운드배스 + 연꽃차 세레모니 명상",
-    time: "19:30 ~ 20:30",
+    time: "19:00 ~ 20:30",
     text: "가야금의 깊고 고요한 울림 속에서 몸과 마음의 이완을 느끼고,\n따뜻한 연꽃차와 함께 지금 이 순간에 머물러 보세요",
     image: "assets/session/k-sound-bath.jpg?v=2",
   },

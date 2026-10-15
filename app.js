@@ -65,7 +65,7 @@
         const on = state.selected.includes(id);
         return `<button type="button" class="tile ${on ? "on" : full ? "dim" : ""}" data-session="${esc(id)}" aria-pressed="${on}"><span class="chk">${ICON.check}</span><span>${esc(name)}</span></button>`;
       }).join("");
-      return `<div class="slot"><div class="time">${row.time}<small>~ ${row.end}</small></div>${cells}</div>`;
+      return `<div class="slot"><div class="time">${row.show || row.time}<small>~ ${row.end}</small></div>${cells}</div>`;
     }).join("");
     return days + `<div class="slots">${rows}</div>`;
   }
@@ -208,7 +208,9 @@
 
   function Done() {
     const chosen = state.lastChosen.map((s) => {
-      const [date, time, ...name] = s.split(" ");
+      const [date, id, ...name] = s.split(" ");
+      const row = C.SCHEDULE.find((r) => r.time === id && r.sessions.includes(name.join(" ")));
+      const time = (row && row.show) || id;
       return `<div>${esc(name.join(" "))}<span>${esc(date.replace("/", "."))} ${esc(dow(date))} · ${esc(time)}</span></div>`;
     }).join("");
     return `
